@@ -1,16 +1,17 @@
 //Chapter 12-13
 
 //Question 1
-
-// var num1 = prompt("Enter number or letter");
-// var letter1 = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z";
-// var letter2 = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"; 
-// if(num1 === letter1){
-//     alert("Given letters are Uppercase");
-// }
-// if(num1 === letter2){
-//     alert("Given letters are lowercase");
-// }
+// var char = window.prompt("Enter a Character");
+// var charcode = char.charCodeAt();
+// if(charcode >= 65 && charcode <= 90){
+//    alert("Given letter is Uppercase")
+//}
+// if(charcode >= 97 && charcode <= 122){
+//    alert("Given letter is lowercase")
+//}
+// else{
+//    alert("Error")
+//}
 
 //Question 2
 // var num2 = prompt("Enter a number 1");
@@ -26,23 +27,24 @@
 // }
 
 //Question 3
-// var num4 = prompt("Enter Number")
-// if(num4 === "1, 2, 3, 4, 5, 6, 7, 8, 9, 10"){
-//     alert("Given number is positive");
-// }
-// if(num4 === "-1,-2,-3,-4,-5,-6,-7,-8,-9,-10"){
-//     alert("Given number is negative");
-// }
-// if(num4 === "0"){
-//     alert("Given number is 0");
-// }
-
-//Questionn 4
+// var num = prompt("Enter Number");
+// var zero = 0;
+// if(num > zero){
+//  alert("Number is Negative")
+//}
+// else if(num < zero){
+//  alert("Number is Positive")
+//}
+// else(){
+//  alert("Invalid Character")
+//}
+        
+//Question 4
 // var letter3 = prompt("Enter vowels");
-// if(letter3 === "a,e,i,o,u"){
+// if(letter3 === "a" || letter3 === "e" || letter3 === "i" || letter3 === "o" || letter3 === "u"){
 //     alert("Given letters are vowels");
 // }
-// if(letter3 !== "a,e,i,o,u"){
+// else(){
 //     alert("False");
 // }
 
